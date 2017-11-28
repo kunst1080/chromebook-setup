@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo mount -o remount,exec /dev/mmcblk1p1
+

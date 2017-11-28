@@ -1,0 +1,8 @@
+SDCARDPATH=$HOME/sdcard
+SCRIPTPATH=$SDCARDPATH/host-scripts
+export PATH=$HOME/bin:$PATH
+
+alias startup="sh $SCRIPTPATH/starti3"
+alias ll='ls -l'
+
+cd $SDCARDPATH

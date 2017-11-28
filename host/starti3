@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo mount -o remount,exec /dev/mmcblk1p1 /var/host/media/removable/sdcard
+sudo enter-chroot -n i3 xinit
