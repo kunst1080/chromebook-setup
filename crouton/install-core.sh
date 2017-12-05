@@ -2,7 +2,7 @@
 sudo apt update -y
 
 sudo apt install -y usbutils vim git zsh curl unzip gawk python3-pip \
-    tmux nkf athena-jot rs mecab jq bc tig
+    tmux nkf athena-jot rs mecab jq bc tig bison colordiff patchutils
 
 # python
 pip3 install --upgrade pip
